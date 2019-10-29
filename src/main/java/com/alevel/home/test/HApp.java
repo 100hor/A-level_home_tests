@@ -9,7 +9,7 @@ public class HApp {
             if (arr[i] > max) {
                 max = arr[i];
 
-            }else if (arr[i] < min){
+            } else if (arr[i] < min) {
                 min = arr[i];
             }
 
@@ -17,11 +17,5 @@ public class HApp {
         return new int[]{max, min};
     }
 
-//    public int FindMin(int[] arr) {
-//        int min = arr[0];
-//        for (int i = 1; i < arr.length; i++) {
-//            if (arr[i] < min) min = arr[i];
-//        }
-//        return min;
-//    }
+
 }
